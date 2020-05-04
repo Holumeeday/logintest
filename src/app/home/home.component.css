@@ -1,0 +1,29 @@
+.foot{
+    background-color: #20c997;
+    padding: 8px;
+    text-align: center;
+    position: absolute;
+    top: 107%;
+    right: 3%;
+    width: 95%;
+    color: white;
+}
+
+.header{
+    font-size: 18px;
+    color: #20c997;
+   
+}
+
+/* .nav{
+    margin-inline-start: auto;
+} */
+
+.btn-success{
+    margin-inline-start: 4px;
+}
+.welcome{
+    margin: 10px 10px;
+    margin-top: 12px;
+}
+
