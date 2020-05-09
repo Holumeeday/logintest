@@ -9,6 +9,9 @@ import { HomeComponent } from './home/home.component';
 import { PrimaryComponent } from './primary/primary.component';
 import { SecondaryComponent } from './secondary/secondary.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { FooterComponent } from './footer/footer.component';
+import { ParentalcontrolComponent } from './parentalcontrol/parentalcontrol.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -17,11 +20,14 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     HomeComponent,
     PrimaryComponent,
     SecondaryComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    FooterComponent,
+    ParentalcontrolComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
