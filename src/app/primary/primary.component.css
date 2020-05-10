@@ -5,3 +5,16 @@
     font-weight: 800; 
     margin-top: 18px;
 }
+
+
+h3{
+    text-align: center;
+}
+
+h2{
+    background-color: springgreen;
+    font-size: 24px;
+    color: white;
+    padding:10px;
+    font-weight: 800;
+}
