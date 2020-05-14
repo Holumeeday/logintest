@@ -9,15 +9,12 @@ import { ParentalcontrolComponent } from './parentalcontrol/parentalcontrol.comp
  
 
 const routes: Routes = [
+  {path: '**', component:HomeComponent},
   {path:'home', component: HomeComponent},
   { path: 'primary', component: PrimaryComponent },
   { path: 'secondary', component: SecondaryComponent },
   { path: 'parentalcontrol', component: ParentalcontrolComponent },
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-},
+  { path: '', redirectTo: '/home', pathMatch: 'full'},
   { path: 'contact-us', component: ContactUsComponent }
 ];
 
