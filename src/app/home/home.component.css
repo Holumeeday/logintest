@@ -13,6 +13,9 @@
     margin-inline-start: auto;
 } */
 
+.home{
+    padding: 10px;
+}
 .btn-success{
     margin-inline-start: 4px;
 }

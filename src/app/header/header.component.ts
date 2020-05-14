@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   constructor() { }
-  isShowDiv = false;
+  isShowDiv = true; 
    
   toggleDisplayDiv() {
     this.isShowDiv = !this.isShowDiv;
