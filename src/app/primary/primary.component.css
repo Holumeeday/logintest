@@ -28,3 +28,28 @@ h2{
     margin-left: 10px;
     margin-bottom: 10px;
 }
+
+
+
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    /* Mobile */
+    .img{
+        width: 100%;
+    }
+
+		
+}
+
+/* screens resolution */
+@media (min-width: 1281px) {
+  /* Laptop */
+   .img{
+       width:70%;
+       height: 70vh;
+       margin-left: 16%;
+   }
+    
+  }

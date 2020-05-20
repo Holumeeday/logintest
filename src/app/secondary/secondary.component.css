@@ -33,3 +33,30 @@ p{
     text-align: center;
     color: red;
 }
+
+.img{
+    margin-bottom: 20px;
+}
+
+
+/* Screens Resolution : 992px
+-------------------------------------------------------------------------- */
+@media only screen and (max-width: 1200px) {
+    /* Mobile */
+    .img{
+        width: 100%;
+    }
+
+		
+}
+
+/* screens resolution */
+@media (min-width: 1281px) {
+  /* Laptop */
+   .img{
+       width:70%;
+       height: 70vh;
+       margin-left: 16%;
+   }
+    
+  }
