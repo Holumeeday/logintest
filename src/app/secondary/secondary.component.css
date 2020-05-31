@@ -1,7 +1,7 @@
 .headi{
     text-align: center;
     font-size: 18px;
-    color: #20c997;
+    color: #F87643;
     font-weight: 800; 
     margin-top: 18px;
 }
@@ -15,7 +15,7 @@ h3{
 }
 
 h2{
-    background-color: springgreen;
+    background-color: rgb(214, 70, 13);
     font-size: 24px;
     color: white;
     padding:10px;

@@ -2,7 +2,7 @@
 
 .header{
     font-size: 21px;
-    color: #20c997;
+    color: #F87643;
     margin-top: 18px;
     margin-left: 10px;
     text-align: center;
@@ -50,6 +50,20 @@
        padding: 10px;
 
    }
+
+   .welcome{
+       font-size: 16px;
+       font-family: Montserrat;
+       font-style: normal;
+       font-weight: normal;
+   }
+
+   .header{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal; 
+   }
+
 }
 
 /* screens resolution */
